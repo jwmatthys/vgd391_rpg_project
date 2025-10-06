@@ -1,0 +1,11 @@
+{
+  "$GMNotes":"",
+  "%Name":"ReadMe",
+  "name":"ReadMe",
+  "parent":{
+    "name":"RPG_tutorial_turnbased",
+    "path":"RPG_tutorial_turnbased.yyp",
+  },
+  "resourceType":"GMNotes",
+  "resourceVersion":"2.0",
+}
