@@ -21,6 +21,8 @@
     {"name":"inst_68CEF0D2","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_5F83815A","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_2ADD0B13","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_365981E","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_30BD35D8","path":"rooms/Room1/Room1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -40,6 +42,12 @@
         {"$GMRInstance":"v2","%Name":"inst_68CEF0D2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_68CEF0D2","objectId":{"name":"obj_enemy1","path":"objects/obj_enemy1/obj_enemy1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1184.0,"y":224.0,},
         {"$GMRInstance":"v2","%Name":"inst_5F83815A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5F83815A","objectId":{"name":"obj_enemy2","path":"objects/obj_enemy2/obj_enemy2.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1184.0,"y":608.0,},
         {"$GMRInstance":"v2","%Name":"inst_2ADD0B13","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2ADD0B13","objectId":{"name":"obj_enemy1","path":"objects/obj_enemy1/obj_enemy1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":992.0,"y":608.0,},
+        {"$GMRInstance":"v2","%Name":"inst_365981E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_365981E","objectId":{"name":"obj_npc1","path":"objects/obj_npc1/obj_npc1.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_npc_parent","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"propertyId":{"name":"dialog","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"global.welcome_dialog",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":192.0,"y":192.0,},
+        {"$GMRInstance":"v2","%Name":"inst_30BD35D8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_30BD35D8","objectId":{"name":"obj_npc2","path":"objects/obj_npc2/obj_npc2.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_npc_parent","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"propertyId":{"name":"dialog","path":"objects/obj_npc_parent/obj_npc_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"global.wizard_dialog",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":384.0,"y":128.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_Col","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_Col","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":48,"SerialiseWidth":86,"TileCompressedData":[
           -14,-2147483648,1,2,-85,-2147483648,1,2,-85,-2147483648,1,2,-11,-2147483648,-30,2,-44,-2147483648,1,
