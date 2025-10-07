@@ -8,7 +8,10 @@ if (current_char < string_length(_str)) {
 } else {
     if (keyboard_check_pressed(input_key)) {
         current_message++;
-        if (current_message >= array_length(messages)) instance_destroy();
+        if (current_message >= array_length(messages)) {
+          instance_destroy();
+          if (next_room) room_goto_next();  
+        } 
         else current_char = 0;
     }
 }

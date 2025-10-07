@@ -75,3 +75,14 @@ wizard_dialog = [
     msg: "Look for another wizard within. He will open the way for you."
 }
 ]
+
+room1_end = [
+{
+    name: "Wizard",
+    msg: "You have reached the end!\nBut more challenges lie ahead."
+},
+{
+    name: "Wizard",
+    msg: "Proceed to the next room."
+}
+]
