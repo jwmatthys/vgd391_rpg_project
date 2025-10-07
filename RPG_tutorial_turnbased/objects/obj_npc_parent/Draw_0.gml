@@ -1,3 +1,4 @@
+draw_shadow(1);
 draw_self();
 
 if (instance_exists(obj_dialog)) exit;

@@ -1,3 +1,4 @@
+draw_shadow();
 draw_self();
 
 var _x = xstart - 20;
