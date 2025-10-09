@@ -1,5 +1,7 @@
 if (instance_exists(obj_battle_switcher)) exit;
     
+if (instance_exists(obj_dialog)) exit;
+    
 var _switcher = instance_create_depth(0, 0, 0, obj_battle_switcher);
 
 _switcher.player_data = self;
