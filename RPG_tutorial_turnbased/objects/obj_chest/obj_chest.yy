@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_walker",
+  "%Name":"obj_chest",
   "eventList":[],
   "managed":true,
-  "name":"obj_walker",
+  "name":"obj_chest",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -27,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"walker",
-    "path":"sprites/walker/walker.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
