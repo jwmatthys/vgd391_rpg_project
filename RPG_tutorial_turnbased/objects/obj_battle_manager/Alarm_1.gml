@@ -1,6 +1,8 @@
 var _enemy_damage = obj_battle_enemy.data.damage * random_range(0.7, 1.2);
 obj_battle_player.data.hp -= _enemy_damage;
 
+audio_play_sound(snd_4_8bit_hit, 10, false);
+
 enemy_turn = 0;
 
 if (check_for_end()) {

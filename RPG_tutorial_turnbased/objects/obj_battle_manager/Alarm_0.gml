@@ -1,5 +1,7 @@
 obj_battle_enemy.data.hp -= damage_to_enemy;
 
+audio_play_sound(snd_hit1, 10, false);
+
 if (check_for_end()) {
     alarm[2] = 60; // switch back to dungeon
 } else {

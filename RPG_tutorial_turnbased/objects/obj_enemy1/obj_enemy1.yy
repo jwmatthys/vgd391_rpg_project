@@ -4,7 +4,9 @@
   "eventList":[],
   "managed":true,
   "name":"obj_enemy1",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_parent","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"propertyId":{"name":"step_sound","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"resource":{"name":"snd_shaker","path":"sounds/snd_shaker/snd_shaker.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"snd_shaker",},
+  ],
   "parent":{
     "name":"Enemies",
     "path":"folders/Objects/Entities/Enemies.yy",
