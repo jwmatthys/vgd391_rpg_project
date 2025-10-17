@@ -1,3 +1,4 @@
+// Player attacks enemy
 obj_battle_enemy.data.hp -= damage_to_enemy;
 
 if (check_for_end()) {
@@ -9,3 +10,4 @@ if (check_for_end()) {
 
 obj_battle_player.data.charge = clamp(obj_battle_player.data.charge + 0.4, 0, 1);
 
+audio_play_sound(snd_player_hit, 10, false);

@@ -10,7 +10,10 @@ if (current_char < string_length(_str)) {
         current_message++;
         if (current_message >= array_length(messages)) {
           instance_destroy();
-          if (next_room) room_goto_next();  
+          if (next_room) {
+            instance_create_depth(0,0,0,obj_room_switcher);
+            room_goto_next();
+            }             
         } 
         else current_char = 0;
     }
