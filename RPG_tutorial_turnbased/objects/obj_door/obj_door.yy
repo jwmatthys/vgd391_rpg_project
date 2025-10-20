@@ -8,8 +8,8 @@
   "name":"obj_door",
   "overriddenProperties":[],
   "parent":{
-    "name":"Utility",
-    "path":"folders/Objects/Entities/Utility.yy",
+    "name":"Environment",
+    "path":"folders/Objects/Entities/Environment.yy",
   },
   "parentObjectId":null,
   "persistent":false,

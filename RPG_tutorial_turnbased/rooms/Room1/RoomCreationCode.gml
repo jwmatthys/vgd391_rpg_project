@@ -1,0 +1,1 @@
+global.num_battle_enemies = 1;
