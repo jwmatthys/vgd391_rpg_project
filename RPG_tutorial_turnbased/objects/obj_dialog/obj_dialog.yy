@@ -10,8 +10,8 @@
   "name":"obj_dialog",
   "overriddenProperties":[],
   "parent":{
-    "name":"Environment",
-    "path":"folders/Objects/Environment.yy",
+    "name":"Utility",
+    "path":"folders/Objects/Entities/Utility.yy",
   },
   "parentObjectId":null,
   "persistent":false,

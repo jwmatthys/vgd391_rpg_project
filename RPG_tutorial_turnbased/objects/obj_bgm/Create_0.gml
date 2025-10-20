@@ -1,1 +1,1 @@
-audio_play_sound(cant_hold_me, 9, true, 0.8);
+audio_play_sound(snd_cant_hold_me, 10, true, 0.5, 0, 1);

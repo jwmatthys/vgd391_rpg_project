@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Environment",
-    "path":"folders/Objects/Environment.yy",
+    "path":"folders/Objects/Entities/Environment.yy",
   },
   "parentObjectId":null,
   "persistent":true,

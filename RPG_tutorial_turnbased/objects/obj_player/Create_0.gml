@@ -9,18 +9,19 @@ level = 1;
 xp = 0;
 xp_require = 100;
 
-if (instance_exists(obj_room_switcher)) {
-    data = obj_room_switcher.player_data;
-    hp = data.hp;
-    hp_total = data.hp_total;
-    damage = data.damage;
-    charge = data.charge;
-    level = data.level;
-    xp = data.xp;
-    xp_require = data.xp_require;
-}
-
 walking = false;
+
+if (instance_exists(obj_room_switcher))
+{
+    hp = obj_room_switcher.player_data.hp;
+    hp_total = obj_room_switcher.player_data.hp_total;
+    damage = obj_room_switcher.player_data.damage;
+    charge = obj_room_switcher.player_data.charge;
+    level = obj_room_switcher.player_data.level;
+    xp = obj_room_switcher.player_data.xp;
+    xp_require = obj_room_switcher.player_data.xp_require;
+    instance_destroy(obj_room_switcher);
+}
 
 function add_xp(_xp_to_add) {
     xp += _xp_to_add;
