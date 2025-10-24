@@ -44,6 +44,7 @@
   "name":"RPG_tutorial_turnbased",
   "resources":[
     {"id":{"name":"anim_card_selected","path":"animcurves/anim_card_selected/anim_card_selected.yy",},},
+    {"id":{"name":"anim_enemy_attack","path":"animcurves/anim_enemy_attack/anim_enemy_attack.yy",},},
     {"id":{"name":"anim_enemy_selected","path":"animcurves/anim_enemy_selected/anim_enemy_selected.yy",},},
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
     {"id":{"name":"ReadMe","path":"notes/ReadMe/ReadMe.yy",},},

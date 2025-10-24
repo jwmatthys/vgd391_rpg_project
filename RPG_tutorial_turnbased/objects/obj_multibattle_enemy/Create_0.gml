@@ -7,6 +7,9 @@ selected = false;
 
 curve_struct = animcurve_get(anim_enemy_selected);
 scale_channel = animcurve_get_channel(curve_struct, "scale");
+attack_curve_struct = animcurve_get(anim_enemy_attack);
+attack_scale_channel = animcurve_get_channel(attack_curve_struct, "scale");
+attack_x_channel = animcurve_get_channel(attack_curve_struct, "x");
 curve_position = 0;
 curve_speed = 0.03;
 scale = 1;
@@ -23,6 +26,8 @@ inflict_damage = function(amt) {
 }
 
 attack = function() {
-    // TODO: add SFX and animation
     obj_multibattle_player.inflict_damage(damage);
+    audio_play_sound(snd_enemy_hit, 10, false);
+    curve_position = 0;
+    alarm[1] = 1;
 }
