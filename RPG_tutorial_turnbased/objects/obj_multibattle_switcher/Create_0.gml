@@ -1,0 +1,1 @@
+accumulated_xp = 0;
