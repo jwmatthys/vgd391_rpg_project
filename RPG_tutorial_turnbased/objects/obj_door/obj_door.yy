@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Utility",
-    "path":"folders/Objects/Entities/Utility.yy",
+    "path":"folders/Objects/Utility.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -26,7 +26,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"my_next_room","filters":[],"listItems":[],"multiselect":false,"name":"my_next_room","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Room2","varType":4,},
+    {"$GMObjectProperty":"v2","%Name":"my_next_room","filters":[],"listItems":[],"multiselect":false,"name":"my_next_room","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Room2","varType":4,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

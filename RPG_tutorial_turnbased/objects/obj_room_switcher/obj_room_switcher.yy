@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Utility",
-    "path":"folders/Objects/Entities/Utility.yy",
+    "path":"folders/Objects/Utility.yy",
   },
   "parentObjectId":null,
   "persistent":true,
