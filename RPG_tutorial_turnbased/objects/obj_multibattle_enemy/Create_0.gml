@@ -21,7 +21,7 @@ inflict_damage = function(amt) {
             array_push(obj_multibattle_switcher.defeated_enemies, self.dungeon_id); 
         }
         obj_multibattle_switcher.accumulated_xp += xp_value;
-        instance_destroy(self);
+        alarm[2] = 1;
     }
 }
 
