@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"Drawing",
+  "%Name":"scr_dialog",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"Drawing",
+  "name":"scr_dialog",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",

@@ -34,6 +34,7 @@
         "GMSprite",
       ],"listItems":[],"multiselect":false,"name":"sprite","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_card_simple","path":"sprites/spr_card_simple/spr_card_simple.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_card_simple","varType":5,},
     {"$GMObjectProperty":"v2","%Name":"require_charge","filters":[],"listItems":[],"multiselect":false,"name":"require_charge","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+    {"$GMObjectProperty":"v2","%Name":"card_function","filters":[],"listItems":[],"multiselect":false,"name":"card_function","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"simple_attack","varType":4,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

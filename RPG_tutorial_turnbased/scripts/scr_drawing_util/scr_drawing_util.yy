@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"Audio_Util",
+  "%Name":"scr_drawing_util",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"Audio_Util",
+  "name":"scr_drawing_util",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",
