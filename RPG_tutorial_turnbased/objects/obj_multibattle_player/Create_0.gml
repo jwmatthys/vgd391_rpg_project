@@ -7,12 +7,12 @@ scale = 1;
 
 data = obj_multibattle_switcher.player_data;
 
-inflict_damage = function(amount) {
+take_damage = function(amount) {
     data.hp -= amount;
     if (data.hp <= 0) {
         audio_play_sound(snd_player_unalived, 10, false);
         scale = 1;
-        alarm[1] = 15;
+        alarm[1] = room_speed / 4;
     }
 }
 
@@ -23,6 +23,6 @@ function player_attack (target, damage) {
         alarm[0] = 1;
         target.selected = false;
         target.scale = 1;
-        target.inflict_damage(damage);
+        target.take_damage(damage);
     }
 }

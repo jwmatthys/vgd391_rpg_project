@@ -1,1 +1,1 @@
-image_index += image_speed / 60;
+image_index += image_speed / room_speed;

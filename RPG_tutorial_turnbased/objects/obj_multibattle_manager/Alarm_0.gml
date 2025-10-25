@@ -7,7 +7,7 @@ if (enemy_index < array_length(enemy_list)) {
     } else {
         enemy_list[enemy_index].attack();
         enemy_index++;
-        alarm[0] = 120;
+        alarm[0] = 2 * room_speed;
     }
 } else {
 	player_turn = true;

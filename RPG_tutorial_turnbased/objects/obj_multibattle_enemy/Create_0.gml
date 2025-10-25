@@ -14,7 +14,7 @@ curve_position = 0;
 curve_speed = 0.03;
 scale = 1;
 
-inflict_damage = function(amt) {
+take_damage = function(amt) {
     hp -= amt;
     if (hp <= 0) {
         if (object_exists(obj_multibattle_switcher)) {
@@ -26,7 +26,7 @@ inflict_damage = function(amt) {
 }
 
 attack = function() {
-    obj_multibattle_player.inflict_damage(damage);
+    obj_multibattle_player.take_damage(damage);
     audio_play_sound(snd_enemy_hit, 10, false);
     curve_position = 0;
     alarm[1] = 1;

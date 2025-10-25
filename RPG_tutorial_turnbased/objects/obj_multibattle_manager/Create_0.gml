@@ -1,5 +1,6 @@
 player_turn = true;
 
+// x and y coordinates for the enemies to be placed.
 enemy_positions = [
     [189, 104],
     [242, 89],
@@ -31,5 +32,5 @@ enemies_turn = function() {
     with (obj_multibattle_enemy) {
         array_push(obj_multibattle_manager.enemy_list, id);
     }
-    alarm[0] = 120;
+    alarm[0] = 2 * room_speed;
 }
