@@ -23,7 +23,7 @@ card_strike = create_card(
     spr_card_simple,
     "Deal damage to a single enemy.",
     deal_damage,
-    [target, 10]   // target object(s) and parameters
+    [undefined, 10]   // target object(s) and parameters
 );
 
 card_heavy_strike = create_card(
@@ -31,7 +31,7 @@ card_heavy_strike = create_card(
     spr_card_heavy,
     "Deal double damage to a single enemy.",
     double_damage,
-    [target, 20]
+    [undefined, 20]
 );
 
 card_heal = create_card(
@@ -39,7 +39,7 @@ card_heal = create_card(
     spr_card_heal,
     "Heal the player",
     heal,
-    [target, 10]
+    [undefined, 10]
 );
 
 // Starting deck
