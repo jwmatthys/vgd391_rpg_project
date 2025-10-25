@@ -1,5 +1,5 @@
 draw_shadow(1);
-draw_sprite_ext(sprite_index, 0, x, y, scale, scale, 0, c_white, 1);
+draw_sprite_ext(sprite_index, floor(image_index), x, y, scale, scale, 0, c_white, 1);
 
 var _x = xstart - 20;
 var _y = ystart + 20;

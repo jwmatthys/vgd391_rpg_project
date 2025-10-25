@@ -1,5 +1,3 @@
-draw_shadow();
-draw_sprite_ext(sprite_index, 0, x, y, scale, scale, 0, c_white, 1);
 
 if (hp > 0) {
     var _x = xstart - 15;
@@ -12,5 +10,5 @@ if (hp > 0) {
     draw_sprite_stretched_ext(spr_box, 1, _x, _y, _hp_width, _h, c_red, 1);    
 }
 
-
-
+draw_shadow();
+draw_sprite_ext(sprite_index, floor(image_index), x, y, scale, scale, 0, c_white, 1);
