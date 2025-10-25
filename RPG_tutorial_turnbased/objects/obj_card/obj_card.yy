@@ -29,11 +29,11 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"card_name","filters":[],"listItems":[],"multiselect":false,"name":"card_name","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":2,},
-    {"$GMObjectProperty":"v2","%Name":"sprite","filters":[
+    {"$GMObjectProperty":"v1","%Name":"card_name","filters":[],"listItems":[],"multiselect":false,"name":"card_name","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":2,},
+    {"$GMObjectProperty":"v1","%Name":"sprite","filters":[
         "GMSprite",
       ],"listItems":[],"multiselect":false,"name":"sprite","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_card_simple","path":"sprites/spr_card_simple/spr_card_simple.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_card_simple","varType":5,},
-    {"$GMObjectProperty":"v2","%Name":"require_charge","filters":[],"listItems":[],"multiselect":false,"name":"require_charge","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+    {"$GMObjectProperty":"v1","%Name":"require_charge","filters":[],"listItems":[],"multiselect":false,"name":"require_charge","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

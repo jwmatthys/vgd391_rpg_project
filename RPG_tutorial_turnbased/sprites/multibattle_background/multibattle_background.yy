@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v2",
+  "$GMSprite":"",
   "%Name":"multibattle_background",
   "bboxMode":0,
   "bbox_bottom":179,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"f7c9771f-0b47-41bc-9c72-3aceba83065a","name":"f7c9771f-0b47-41bc-9c72-3aceba83065a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"f7c9771f-0b47-41bc-9c72-3aceba83065a","name":"f7c9771f-0b47-41bc-9c72-3aceba83065a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -63,6 +63,8 @@
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
+    "seqHeight":180.0,
+    "seqWidth":320.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,
