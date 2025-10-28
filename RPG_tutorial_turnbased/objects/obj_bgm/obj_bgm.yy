@@ -8,8 +8,8 @@
   "name":"obj_bgm",
   "overriddenProperties":[],
   "parent":{
-    "name":"Environment",
-    "path":"folders/Objects/Entities/Environment.yy",
+    "name":"Utility",
+    "path":"folders/Objects/Utility.yy",
   },
   "parentObjectId":null,
   "persistent":true,

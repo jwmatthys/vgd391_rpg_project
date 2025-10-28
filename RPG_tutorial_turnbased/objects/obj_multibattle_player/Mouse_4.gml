@@ -11,7 +11,7 @@ if (obj_multibattle_manager.player_turn) {
     }
 
     if (_selected_card != noone and _selected_enemy != noone) {
-        player_attack(_selected_enemy, data.damage);
+        player_attack(_selected_enemy, data.hit_die);
         _selected_card.selected = false;
         if (instance_exists(_selected_enemy)) _selected_enemy.selected = false;
         obj_multibattle_manager.enemies_turn();

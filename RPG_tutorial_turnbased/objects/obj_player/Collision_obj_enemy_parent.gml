@@ -13,7 +13,8 @@ for (var i = 0; i < array_length(_nearby); i++) {
         id: _enemy.id,
         hp: _enemy.hp,
         hp_total: _enemy.hp_total,
-        damage: _enemy.damage,
+        ac: _enemy.ac,
+        hit_die: _enemy.hit_die,
         xp_value: _enemy.xp_value,
         sprite: _enemy.sprite_index
     };

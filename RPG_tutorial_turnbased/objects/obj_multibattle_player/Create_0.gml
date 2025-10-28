@@ -16,13 +16,14 @@ take_damage = function(amount) {
     }
 }
 
-function player_attack (target, damage) {
+function player_attack (target) {
     if (instance_exists(target)) {
         audio_play_sound(snd_player_hit, 10, false);
         curve_position = 0;
         alarm[0] = 1;
         target.selected = false;
         target.scale = 1;
-        target.take_damage(damage);
+        var _damage = dnd_combat(target.ac, data.hit_die);
+        target.take_damage(_damage);
     }
 }

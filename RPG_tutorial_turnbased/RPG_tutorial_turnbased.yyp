@@ -79,6 +79,7 @@
     {"id":{"name":"scr_deck","path":"scripts/scr_deck/scr_deck.yy",},},
     {"id":{"name":"scr_dialog","path":"scripts/scr_dialog/scr_dialog.yy",},},
     {"id":{"name":"scr_drawing_util","path":"scripts/scr_drawing_util/scr_drawing_util.yy",},},
+    {"id":{"name":"scr_levelup","path":"scripts/scr_levelup/scr_levelup.yy",},},
     {"id":{"name":"scr_nearby_enemies","path":"scripts/scr_nearby_enemies/scr_nearby_enemies.yy",},},
     {"id":{"name":"snd_cant_hold_me","path":"sounds/snd_cant_hold_me/snd_cant_hold_me.yy",},},
     {"id":{"name":"snd_enemy_hit","path":"sounds/snd_enemy_hit/snd_enemy_hit.yy",},},

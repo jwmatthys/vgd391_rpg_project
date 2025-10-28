@@ -18,7 +18,8 @@ if (object_exists(obj_multibattle_switcher)) {
         var new_enemy = instance_create_layer(_x, _y, "Instances", obj_multibattle_enemy);
         new_enemy.hp = data.hp;
         new_enemy.hp_total = data.hp_total;
-        new_enemy.damage = data.damage;
+        new_enemy.ac = data.ac;
+        new_enemy.hit_die = data.hit_die;
         new_enemy.xp_value = data.xp_value;
         new_enemy.sprite_index = data.sprite;
         new_enemy.dungeon_id = data.id;
