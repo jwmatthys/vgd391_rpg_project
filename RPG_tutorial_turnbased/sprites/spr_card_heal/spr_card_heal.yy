@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_card_heal",
   "bboxMode":0,
   "bbox_bottom":39,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"2da59fd0-e4b0-47b5-b91c-9b5f3a101af5","name":"2da59fd0-e4b0-47b5-b91c-9b5f3a101af5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2da59fd0-e4b0-47b5-b91c-9b5f3a101af5","name":"2da59fd0-e4b0-47b5-b91c-9b5f3a101af5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
